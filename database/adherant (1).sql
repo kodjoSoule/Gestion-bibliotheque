@@ -1,0 +1,52 @@
+-- phpMyAdmin SQL Dump
+-- version 4.9.2
+-- https://www.phpmyadmin.net/
+--
+-- Hôte : 127.0.0.1:3306
+-- Généré le :  jeu. 20 mai 2021 à 08:24
+-- Version du serveur :  10.4.10-MariaDB
+-- Version de PHP :  7.3.12
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Base de données :  `gestionbibliotheque`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `adherant`
+--
+
+DROP TABLE IF EXISTS `adherant`;
+CREATE TABLE IF NOT EXISTS `adherant` (
+  `ID_ADHERANT` int(11) NOT NULL AUTO_INCREMENT,
+  `NOM_ADHERANT` varchar(30) DEFAULT NULL,
+  `PRENOM_ADHERANT` varchar(30) DEFAULT NULL,
+  `ATE_NAISS_ADHERANT` date DEFAULT NULL,
+  `ADRESSE_ADHERANT` varchar(30) DEFAULT NULL,
+  `TEL_ADHERANT` int(11) DEFAULT NULL,
+  PRIMARY KEY (`ID_ADHERANT`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `adherant`
+--
+
+INSERT INTO `adherant` (`ID_ADHERANT`, `NOM_ADHERANT`, `PRENOM_ADHERANT`, `ATE_NAISS_ADHERANT`, `ADRESSE_ADHERANT`, `TEL_ADHERANT`) VALUES
+(1, 'Kodjo', 'Souleymane', '2021-05-24', 'Sokorodji', 75066811);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
