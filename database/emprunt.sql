@@ -1,0 +1,49 @@
+-- phpMyAdmin SQL Dump
+-- version 4.9.2
+-- https://www.phpmyadmin.net/
+--
+-- Hôte : 127.0.0.1:3306
+-- Généré le :  jeu. 20 mai 2021 à 08:25
+-- Version du serveur :  10.4.10-MariaDB
+-- Version de PHP :  7.3.12
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Base de données :  `gestionbibliotheque`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `emprunt`
+--
+
+DROP TABLE IF EXISTS `emprunt`;
+CREATE TABLE IF NOT EXISTS `emprunt` (
+  `ID_EMPRUNT` int(11) NOT NULL AUTO_INCREMENT,
+  `ISBN` int(11) NOT NULL,
+  `ID_ADHERANT` int(11) NOT NULL,
+  `LOGIN_AD` varchar(8) NOT NULL,
+  `DATE_DEBUT` date DEFAULT current_timestamp(),
+  `DATE_FIN` date DEFAULT NULL,
+  `NBRE_EMPRUNT` int(11) DEFAULT NULL,
+  PRIMARY KEY (`ID_EMPRUNT`),
+  KEY `FK_EMPRUNT_CONCERNE_LIVRE` (`ISBN`),
+  KEY `FK_EMPRUNT_EFFECTUER_ADHERANT` (`ID_ADHERANT`),
+  KEY `FK_EMPRUNT_GERER_ADMIN_BI` (`LOGIN_AD`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

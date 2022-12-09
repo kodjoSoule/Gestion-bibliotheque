@@ -1,0 +1,47 @@
+brouillon
+session_start();
+		$isErro = false ;
+		include_once('connexion.php');
+		if( isset($_POST['submit']) ){
+			// $username = $_POST['username'];
+			// $password = $_POST['password'];
+			$requet = "SELECT LOGIN_AD, PASSWORD_AD FROM admin_biblio" ;
+			$reponse = $bdd->prepare($reponse);
+			$reponse->execute();
+			
+			extract($_POST);
+			if( !empty($username) && !empty($password)){
+				if($username != $reponse['LOGIN_AD'] && $password != $reponse['PASSWORD_AD']){
+				$isErro = true ;
+				}else{
+				header("location:accueil.php");
+			}
+        }
+        if(valid){
+        	$_SESSION['login'] = reponse['LOGIN_AD'];
+        	$_SESSION['nom'] = reponse['NOM_AD'];
+        	$_SESSION['prenom'] = reponse['PRENOM_AD'];
+        }
+
+
+
+      *********
+      <a href="#" class="btn btn-default " >
+		Accueil <span class="glyphicon glyphicon-home"></span>
+	</a>
+	<a href="#" class="btn btn-primary " style="margin-top: 5px;">
+		Ajouter un livre <span class="glyphicon glyphicon-plus-sign"></span>
+	</a>
+	<a href="#" class="btn btn-warning " style="margin-top: 5px;">
+		Preter un livre  <span class="glyphicon glyphicon-open-file"></span>
+	</a>
+	<a href="#" class="btn btn-success "style="margin-top: 5px;" >
+		Retour de livre  <span class="glyphicon glyphicon-save-file"></span>
+	</a>
+	<div style="margin-top: 20px;" style="margin-top: 10px;" class="btn-group btn-group-lg">
+		<a href="#" class="btn btn-warning " style="margin-top: 5px;" >
+			Changer le mot de passe  <span class="glyphicon glyphicon-user"></span>
+		</a>
+		<a href="#" class="btn btn-danger " style="margin-top: 5px;" >
+			Deconnecter  <span class="glyphicon glyphicon-rspanove"></span>
+		</a>
