@@ -1,0 +1,2623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner AppLocale="UTF16" ID="{14EEAA7D-23E9-488A-97F6-DEAE3E3C9F9A}" Label="" LastModificationDate="1621124861" Name="GestionBibliothèque" Objects="86" Symbols="9" Type="{5F45F978-C4F3-4E35-A3FC-AF3318663A0F}" signature="LDM_DATA_MODEL_XML" version="16.7.1.6488"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
+
+<o:RootObject Id="o1">
+<a:SessionID>00000000-0000-0000-0000-000000000000</a:SessionID>
+<c:Children>
+<o:Model Id="o2">
+<a:ObjectID>14EEAA7D-23E9-488A-97F6-DEAE3E3C9F9A</a:ObjectID>
+<a:Name>GestionBibliothèque</a:Name>
+<a:Code>GESTIONBIBLIOTHEQUE</a:Code>
+<a:CreationDate>1620928598</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621124860</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {DD7DB1B0-50BE-41F4-AB5E-771311280018}
+DAT 1621124859
+ATT FOPT
+DLD {BB78FDA9-0255-4B16-978A-5517AFFE050C},{E4A4ABDD-8BAA-4F69-903B-088C5051F0AA}</a:History>
+<a:PackageOptionsText>[FolderOptions]
+
+[FolderOptions\Common]
+GenerationCheckModel=Yes
+GenerationPath=
+GenerationOptions=
+GenerationTasks=
+GenerationTargets=
+GenerationSelections=
+
+[FolderOptions\CheckModel]
+
+[FolderOptions\CheckModel\Package]
+
+[FolderOptions\CheckModel\Package\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\CheckPackageMissTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\DefaultCheckPackageMissTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\GenrCircularityYes]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\GenrCircularityNo]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\ShortcutUniqCode]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Package\ChildShortcut]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine]
+
+[FolderOptions\CheckModel\Domaine\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckPrecSupLng]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckUndefDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckOtherDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckDttpIncompatibleFormat]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité]
+
+[FolderOptions\CheckModel\Entité\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\MaxLen - NAME]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EmptyColl - PENTCOL]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttNbSerials]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EmptyColl - IDTFCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EmptyCollYesYes]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttSamePrnt]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttMultInhr]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttSevInhr]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\PidtfInhrAtt]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité]
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\AttrDiffDomn]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\CheckPrecSupLng]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\CheckUndefDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\CheckOtherDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\CheckDttpIncompatibleFormat]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant]
+
+[FolderOptions\CheckModel\Entité.Identifiant\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\EmptyColl - PENTCOL]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\CheckIncludeColl - Entt]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\IdtfChildPIdtf]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation]
+
+[FolderOptions\CheckModel\Relation\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshReflexiveDeptYes]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshReflexiveDeptNo]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshBject]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshMany]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage]
+
+[FolderOptions\CheckModel\Héritage\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage\EmptyColl - CHILDCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage\InhrComplete]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réplication]
+
+[FolderOptions\CheckModel\Réplication\PartialReplication]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion]
+
+[FolderOptions\CheckModel\Règle de gestion\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\EmptyColl - OBJCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu]
+
+[FolderOptions\CheckModel\Objet étendu\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu]
+
+[FolderOptions\CheckModel\Lien étendu\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier]
+
+[FolderOptions\CheckModel\Fichier\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier\CheckPathExists]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Format de données]
+
+[FolderOptions\CheckModel\Format de données\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Format de données\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Format de données\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Format de données\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Format de données\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Format de données\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Format de données\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Format de données\CheckDataFormatNullExpression]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Zone]
+
+[FolderOptions\CheckModel\Zone\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Zone\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Zone\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Zone\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Zone\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Zone\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Zone\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes</a:PackageOptionsText>
+<a:ModelOptionsText>[ModelOptions]
+
+[ModelOptions\Logical options]
+CaseSensitive=No
+DisplayName=Yes
+EnableTrans=No
+UseTerm=No
+EnableRequirements=No
+EnableFullShortcut=Yes
+SynchroCode=Yes
+Notation=0
+RlshUnique=Yes
+DefaultDttp=
+DomnCopyDttp=Yes
+DomnCopyChck=No
+DomnCopyRule=No
+DomnCopyExat=No
+DomnCopyMand=No
+DttpFullName=Yes
+RlshMigrateDomain=Yes
+RlshMigrateCheck=Yes
+RlshMigrateRule=Yes
+RlshMigrateExtd=Yes
+RlshAllowInhrDivr=No
+RlshAllowNN=No
+RlshGenNN=No
+FKNameTemplate=%.3:PARENT%_%ATTRIBUTE%
+FKNameTemplateUsage=No
+RlshAsstTmpl=Chaque %Entity1.Name%[CRLF].if %Entity1ToEntity2RoleMandatory%[CRLF] doit[CRLF].else[CRLF] peut[CRLF].endif[CRLF].if %Entity1ToEntity2Role%[CRLF] %.L:Entity1ToEntity2Role%[CRLF].else[CRLF] avoir[CRLF].endif[CRLF].if %Entity1ToEntity2RoleMaximumCardinality%==1[CRLF].if %Entity1ToEntity2RoleMandatory%[CRLF] un(e) et un(e) seul(e)[CRLF].else[CRLF] au plus un(e)[CRLF].endif[CRLF].else[CRLF] un(e) ou plusieurs[CRLF].endif[CRLF].if (%Entity1% == %Entity2%)[CRLF] autre[CRLF].endif[CRLF] %Entity2.Name%.[CRLF]Chaque %Entity2.Name%[CRLF].if %Entity2ToEntity1RoleMandatory%[CRLF] doit[CRLF].else[CRLF] peut[CRLF].endif[CRLF].if %Entity2ToEntity1Role%[CRLF] %.L:Entity2ToEntity1Role%[CRLF].else[CRLF] avoir[CRLF].endif[CRLF].if %Entity2ToEntity1RoleMaximumCardinality%==1[CRLF].if %Entity2ToEntity1RoleMandatory%[CRLF] un(e) et un(e) seul(e)[CRLF].else[CRLF] au plus un(e)[CRLF].endif[CRLF].else[CRLF] un(e) ou plusieurs[CRLF].endif[CRLF].if (%Entity1% == %Entity2%)[CRLF] autre[CRLF].endif[CRLF] %Entity1.Name%.
+RlshAsstExt=
+
+[ModelOptions\Logical options\NamingOptionsTemplates]
+
+[ModelOptions\Logical options\ClssNamingOptions]
+
+[ModelOptions\Logical options\ClssNamingOptions\FILO]
+
+[ModelOptions\Logical options\ClssNamingOptions\FILO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=&quot;\/:*?&lt;&gt;|&quot;
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\FILO\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_. &quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\FRMEOBJ]
+
+[ModelOptions\Logical options\ClssNamingOptions\FRMEOBJ\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\FRMEOBJ\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\FRMELNK]
+
+[ModelOptions\Logical options\ClssNamingOptions\FRMELNK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\FRMELNK\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\AREA]
+
+[ModelOptions\Logical options\ClssNamingOptions\AREA\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\AREA\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Logical options\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMPCKG]
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMPCKG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMPCKG\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMDOMN]
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMDOMN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMDOMN\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMENTT]
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMENTT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMENTT\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMPROP]
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMPROP\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMPROP\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMIDTF]
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMIDTF\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMIDTF\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMRLSH]
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMRLSH\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMRLSH\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMINHR]
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMINHR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMINHR\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Generate]
+
+[ModelOptions\Generate\Cdm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+
+[ModelOptions\Generate\Pdm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+BuildTrgr=No
+TablePrefix=
+IndxPKName=%TABLE%_PK
+IndxAKName=%TABLE%_AK
+IndxFKName=%REFR%_FK
+IndxThreshold=
+PreserveMode=Yes</a:ModelOptionsText>
+<a:RepositoryFilename>E:\#Semestre 6\Mini Projet INFO\2021\Merise\GestionBibliothèque.mld</a:RepositoryFilename>
+<c:GeneratedModels>
+<o:Shortcut Id="o3">
+<a:ObjectID>B4F81A42-EFE6-48D1-A04C-DDF8131B616C</a:ObjectID>
+<a:Name>GestionBibliothèque</a:Name>
+<a:Code>GESTIONBIBLIOTHEQUE</a:Code>
+<a:CreationDate>1620928770</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928770</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>028B4019-5A3D-4547-AAF2-5D61EA11ADE9</a:TargetID>
+<a:TargetClassID>CDE44E21-9669-11D1-9914-006097355D9B</a:TargetClassID>
+</o:Shortcut>
+</c:GeneratedModels>
+<c:GenerationOrigins>
+<o:Shortcut Id="o4">
+<a:ObjectID>8FF708D3-DBE8-4D72-9E83-6BB5F4B8AB0A</a:ObjectID>
+<a:Name>GestionBibliothèque</a:Name>
+<a:Code>GESTIONBIBLIOTHEQUE</a:Code>
+<a:CreationDate>1621124861</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621124861</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>DD7DB1B0-50BE-41F4-AB5E-771311280018</a:TargetID>
+<a:TargetClassID>1E597170-9350-11D1-AB3C-0020AF71E433</a:TargetClassID>
+</o:Shortcut>
+</c:GenerationOrigins>
+<c:LogicalDiagrams>
+<o:LogicalDiagram Id="o5">
+<a:ObjectID>A3789790-BE5C-41EF-8F59-C70311E0D5C3</a:ObjectID>
+<a:Name>GestionBibliothèque</a:Name>
+<a:Code>GESTIONBIBLIOTHEQUE</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {2E17DB4B-7419-43B4-AAA3-163BB8270823}
+DAT 1620928602</a:History>
+<a:DisplayPreferences>[DisplayPreferences]
+
+[DisplayPreferences\LDM]
+
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=Yes
+Show Links intersections=Yes
+Activate automatic link routing=Yes
+Grid size=800
+Graphic unit=2
+Window color=255 255 255
+Background image=
+Background mode=8
+Watermark image=
+Watermark mode=8
+Show watermark on screen=No
+Gradient mode=0
+Gradient end color=255 255 255
+Show Swimlane=No
+SwimlaneVert=Yes
+TreeVert=No
+CompDark=0
+
+[DisplayPreferences\Object]
+Show Icon=No
+Mode=2
+Trunc Length=40
+Word Length=40
+Word Text=!&quot;#$%&amp;&#39;)*+,-./:;=&gt;?@\]^_`|}~
+Shortcut IntIcon=Yes
+Shortcut IntLoct=Yes
+Shortcut IntFullPath=No
+Shortcut IntLastPackage=Yes
+Shortcut ExtIcon=Yes
+Shortcut ExtLoct=No
+Shortcut ExtFullPath=No
+Shortcut ExtLastPackage=Yes
+Shortcut ExtIncludeModl=Yes
+Area.IconPicture=Yes
+Area.Stereotype=Yes
+Area.Comment=No
+Area.TextStyle=No
+Area.SubSymbols=Yes
+Area_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom de zone&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Forcer l&amp;#39;alignement en haut&quot; Attribute=&quot;TextStyle&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+EObjShowStrn=Yes
+ExtendedObject.Comment=No
+ExtendedObject.IconPicture=No
+ExtendedObject.TextStyle=No
+ExtendedObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom de l&amp;#39;objet&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Forcer l&amp;#39;alignement en haut&quot; Attribute=&quot;TextStyle&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+ELnkShowStrn=Yes
+ELnkShowName=Yes
+ExtendedLink_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+ExtDpdShowStrn=Yes
+ExtendedDependency_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+FileObject.Stereotype=No
+FileObject.DisplayName=Yes
+FileObject.LocationOrName=No
+FileObject.IconPicture=No
+FileObject.TextStyle=No
+FileObject.IconMode=Yes
+FileObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;Yes&quot; Display=&quot;HorizontalRadios&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Emplacement&quot; Attribute=&quot;LocationOrName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Forcer l&amp;#39;alignement en haut&quot; Attribute=&quot;TextStyle&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+Package.Stereotype=Yes
+Package.Comment=No
+Package.IconPicture=No
+Package.TextStyle=No
+Package_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Forcer l&amp;#39;alignement en haut&quot; Attribute=&quot;TextStyle&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+Display Model Version=Yes
+Entity.Stereotype=Yes
+Entity.Attributes=Yes
+Entity.Attributes._Filter=&quot;Tous les attributs&quot; CDMPENTALL
+Entity.Attributes._Columns=Stereotype IdentifierIndicator DomainOrDataType NullIndicator
+Entity.Attributes._Limit=-5
+Entity.Identifiers=Yes
+Entity.Identifiers._Columns=Stereotype IdentifierIndicator
+Entity.Comment=No
+Entity.IconPicture=No
+Entity.TextStyle=No
+Entity_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardCollection Name=&quot;Attributs&quot; Collection=&quot;Attributes&quot; Columns=&quot;Stereotype No\r\nDisplayName Yes\r\nIdentifierIndicator No &amp;quot;Indicateurs d&amp;#39;identifiant&amp;quot;\r\nDataType No\r\nDomainOrDataType No &amp;quot;Domaine ou type de données&amp;quot;\r\nDomain No\r\nNullIndicator No Obligatoire&quot; Filters=&quot;&amp;quot;Tous les attributs&amp;quot;  CDMPENTALL &amp;quot;&amp;quot;\r\n&amp;quot;Attributs primaires&amp;quot;  CDMPENTPK &amp;quot;\&amp;quot;PIDTF \&amp;quot;TRUE\&amp;quot; TRUE\&amp;quot;&amp;quot;\r\n&amp;quot;Attributs identifiants&amp;quot;  CDMPENTIDTF &amp;quot;\&amp;quot;AIDF \&amp;quot;TRUE\&amp;quot; TRUE\&amp;quot;&amp;quot;&quot; HasLimit=&quot;Yes&quot; HideEmpty=&quot;No&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardCollection Name=&quot;Identifiants&quot; Collection=&quot;Identifiers&quot; Columns=&quot;Stereotype No\r\nDisplayName Yes\r\nIdentifierIndicator No &amp;quot;Indicateurs d&amp;#39;identifiant&amp;quot;&quot; HasLimit=&quot;No&quot; HideEmpty=&quot;No&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Forcer l&amp;#39;alignement en haut&quot; Attribute=&quot;TextStyle&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+Relationship.Entity1ToEntity2Role=Yes
+Relationship.Entity2ToEntity1RoleCardinality=No
+Relationship.Entity1ToEntity2RoleDominant=Yes
+Relationship.Stereotype=Yes
+Relationship.DisplayName=Yes
+Relationship.JoinExpression=No
+Relationship.Entity2ToEntity1Role=Yes
+Relationship.Entity1ToEntity2RoleCardinality=No
+Relationship.Entity2ToEntity1RoleDominant=Yes
+Relationship_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Rôle&quot; Attribute=&quot;Entity1ToEntity2Role&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;Rôle&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Cardinalité&quot; Attribute=&quot;Entity2ToEntity1RoleCardinality&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;Cardinalité&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Dominance&quot; Attribute=&quot;Entity1ToEntity2RoleDominant&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;Dominance&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Rôle&quot; Attribute=&quot;Entity2ToEntity1Role&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;Rôle&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Cardinalité&quot; Attribute=&quot;Entity1ToEntity2RoleCardinality&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;Cardinalité&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Dominance&quot; Attribute=&quot;Entity2ToEntity1RoleDominant&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;Dominance&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+Inheritance.Stereotype=Yes
+Inheritance.DisplayName=Yes
+Inheritance.IconPicture=No
+Inheritance.TextStyle=No
+Inheritance_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Forcer l&amp;#39;alignement en haut&quot; Attribute=&quot;TextStyle&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+Association.Stereotype=Yes
+Association.Comment=No
+Association.Attributes=Yes
+Association.Attributes._Columns=Stereotype DataType NullIndicator
+Association.Attributes._Limit=-5
+Association.IconPicture=No
+Association.TextStyle=No
+Association_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardCollection Name=&quot;Attributs&quot; Collection=&quot;Attributes&quot; Columns=&quot;Stereotype No\r\nDisplayName Yes\r\nDataType No\r\nDomainOrDataType No &amp;quot;Domaine ou type de données&amp;quot;\r\nDomain No\r\nNullIndicator No Obligatoire&quot; HasLimit=&quot;Yes&quot; HideEmpty=&quot;No&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Forcer l&amp;#39;alignement en haut&quot; Attribute=&quot;TextStyle&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+AssociationLink.SymbolCardinality=Yes
+AssociationLink.Stereotype=Yes
+AssociationLink.Role=Yes
+AssociationLink_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Cardinalité&quot; Attribute=&quot;SymbolCardinality&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;Cardinalité&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Rôle&quot; Attribute=&quot;Role&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+
+[DisplayPreferences\Symbol]
+
+[DisplayPreferences\Symbol\AREA]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=9600
+Height=8000
+Brush color=253 249 234
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=16
+Brush gradient color=245 230 173
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 121 98 6
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMEOBJ]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=64
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMELNK]
+CENTERFont=Arial,8,N
+CENTERFont color=0 0 0
+Line style=1
+Source Arrow=24
+Center Arrow=24
+Target Arrow=7
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\USRDEPD]
+CENTERFont=Arial,8,N
+CENTERFont color=0 0 0
+Line style=1
+Source Arrow=24
+Center Arrow=24
+Target Arrow=7
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=2 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FILO]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+LCNMFont=Arial,8,N
+LCNMFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LDMPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=4000
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LDMENTT]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AttributesFont=Arial,8,N
+AttributesFont color=0 0 0
+EntityPrimaryAttributeFont=Arial,8,U
+EntityPrimaryAttributeFont color=0 0 0
+EntityForeignAttributeFont=Arial,8,N
+EntityForeignAttributeFont color=0 0 0
+IdentifiersFont=Arial,8,N
+IdentifiersFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=4000
+Brush color=176 186 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 88 74 181
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LDMRLSH]
+SOURCEFont=Arial,8,N
+SOURCEFont color=0 0 0
+CENTERFont=Arial,8,N
+CENTERFont color=0 0 0
+DESTINATIONFont=Arial,8,N
+DESTINATIONFont color=0 0 0
+Line style=1
+Source Arrow=24
+Center Arrow=24
+Target Arrow=24
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 88 74 181
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LDMINHR]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=Yes
+Width=1600
+Height=1000
+Brush color=176 186 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LDMLINH]
+CENTERFont=Arial,8,N
+CENTERFont color=0 0 0
+Line style=1
+Source Arrow=24
+Center Arrow=24
+Target Arrow=24
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\Free Symbol]
+Free TextFont=Arial,8,N
+Free TextFont color=0 0 0
+Line style=0
+Source Arrow=24
+Center Arrow=24
+Target Arrow=24
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CDMPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=4000
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ENTT]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AttributesFont=Arial,8,N
+AttributesFont color=0 0 0
+EntityPrimaryAttributeFont=Arial,8,U
+EntityPrimaryAttributeFont color=0 0 0
+IdentifiersFont=Arial,8,N
+IdentifiersFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=4000
+Brush color=176 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 170 170
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\RLSH]
+SOURCEFont=Arial,8,N
+SOURCEFont color=0 0 0
+CENTERFont=Arial,8,N
+CENTERFont color=0 0 0
+DESTINATIONFont=Arial,8,N
+DESTINATIONFont color=0 0 0
+Line style=1
+Source Arrow=24
+Center Arrow=24
+Target Arrow=24
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 170 170
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ASSC]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AttributesFont=Arial,8,N
+AttributesFont color=0 0 0
+EntityPrimaryAttributeFont=Arial,8,U
+EntityPrimaryAttributeFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3000
+Brush color=208 208 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LINK]
+SOURCEFont=Arial,8,N
+SOURCEFont color=0 0 0
+CENTERFont=Arial,8,N
+CENTERFont color=0 0 0
+Line style=1
+Source Arrow=24
+Center Arrow=24
+Target Arrow=24
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CDMINHR]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=Yes
+Width=1600
+Height=1000
+Brush color=176 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LINH]
+CENTERFont=Arial,8,N
+CENTERFont color=0 0 0
+Line style=1
+Source Arrow=24
+Center Arrow=24
+Target Arrow=24
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\CDM]</a:DisplayPreferences>
+<a:PaperSize>(8268, 11693)</a:PaperSize>
+<a:PageMargins>((315,354), (433,354))</a:PageMargins>
+<a:PageOrientation>1</a:PageOrientation>
+<a:PaperSource>15</a:PaperSource>
+<c:Symbols>
+<o:RelationshipSymbol Id="o6">
+<a:ModificationDate>1621124860</a:ModificationDate>
+<a:Rect>((11434,10599), (31735,22608))</a:Rect>
+<a:ListOfPoints>((13459,22208),(13459,11799),(31335,11799))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4627</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o7"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o8"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o9"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o10">
+<a:ModificationDate>1621124860</a:ModificationDate>
+<a:Rect>((-20097,21639), (9675,24039))</a:Rect>
+<a:ListOfPoints>((9275,22839),(-19697,22839))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4882</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o7"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o11"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o12"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o13">
+<a:ModificationDate>1621124860</a:ModificationDate>
+<a:Rect>((-12154,4573), (32427,6973))</a:Rect>
+<a:ListOfPoints>((32027,5773),(10150,5773),(10150,5745),(-11754,5745))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4882</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<a:AutomaticRoutingState>4</a:AutomaticRoutingState>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o8"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o14"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o15"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o16">
+<a:ModificationDate>1621124860</a:ModificationDate>
+<a:CenterTextOffset>(-3468, 650)</a:CenterTextOffset>
+<a:Rect>((1116,-7707), (29151,9899))</a:Rect>
+<a:ListOfPoints>((27951,9499),(27951,-6895),(1516,-6895))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>4882</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o8"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o17"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o18"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:EntitySymbol Id="o7">
+<a:ModificationDate>1621124860</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((1093,16952), (17157,27896))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
+Identifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Entity Ref="o19"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o8">
+<a:ModificationDate>1621124860</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((23607,4266), (39063,14348))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
+Identifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Entity Ref="o20"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o11">
+<a:ModificationDate>1621124860</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-29064,17395), (-10330,28815))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
+Identifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Entity Ref="o21"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o14">
+<a:ModificationDate>1621124860</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-19984,2909), (-3306,11829))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
+Identifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Entity Ref="o22"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o17">
+<a:ModificationDate>1621124860</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-7980,-13181), (11231,-3427))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
+Identifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Entity Ref="o23"/>
+</c:Object>
+</o:EntitySymbol>
+</c:Symbols>
+</o:LogicalDiagram>
+</c:LogicalDiagrams>
+<c:DefaultDiagram>
+<o:LogicalDiagram Ref="o5"/>
+</c:DefaultDiagram>
+<c:Entities>
+<o:Entity Id="o19">
+<a:ObjectID>B480B75D-B426-4289-857E-5165DE2B4CC0</a:ObjectID>
+<a:Name>Livre</a:Name>
+<a:Code>LIVRE</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {A753F047-EC15-4D4E-9ED7-BD0C2726D70E}
+DAT 1620928602</a:History>
+<c:Identifiers>
+<o:Identifier Id="o24">
+<a:ObjectID>EEDCE2EC-795E-4DDC-881B-FF4C09A205AC</a:ObjectID>
+<a:Name>ISBN</a:Name>
+<a:Code>ISBN</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621124860</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {8AAE56FE-DFC7-4D2A-9706-2E25C602EA34}
+DAT 1620928602</a:History>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o25"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o24"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o25">
+<a:ObjectID>4DFA3038-B381-422F-9033-ECEA875D694C</a:ObjectID>
+<a:Name>ISBN</a:Name>
+<a:Code>ISBN</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621124860</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {9825B8D1-58FC-4DA5-B053-7CE67D975B8B}
+DAT 1620928602</a:History>
+<a:DataType>I</a:DataType>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o26">
+<a:ObjectID>FD21ACAA-4FD3-4DBB-B59D-4B1A23BC706C</a:ObjectID>
+<a:Name>nom_auteur</a:Name>
+<a:Code>NOM_AUTEUR</a:Code>
+<a:CreationDate>1621108704</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {DBF2E156-64B5-4B01-B028-60B6834DFADB},{E4A4ABDD-8BAA-4F69-903B-088C5051F0AA}
+DAT 1621108705</a:History>
+<a:DataType>VA30</a:DataType>
+<a:Length>30</a:Length>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+<a:AutoMigrated>1</a:AutoMigrated>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o27">
+<a:ObjectID>E0445558-369E-48F3-B31E-CAB539700751</a:ObjectID>
+<a:Name>titre_livre</a:Name>
+<a:Code>TITRE_LIVRE</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {CC367AB6-2ED2-4172-8272-421203013462}
+DAT 1620928602</a:History>
+<a:DataType>VA30</a:DataType>
+<a:Length>30</a:Length>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o28">
+<a:ObjectID>EDACB874-A51A-4874-8ED4-01BECC061186</a:ObjectID>
+<a:Name>langue_livre</a:Name>
+<a:Code>LANGUE_LIVRE</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621124860</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {0EFBBE0E-4AC6-4750-9F2F-934957DD8524}
+DAT 1620928602</a:History>
+<a:DataType>VA30</a:DataType>
+<a:Length>30</a:Length>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o29">
+<a:ObjectID>B84A2039-9E0C-460F-A979-56A34FB2411D</a:ObjectID>
+<a:Name>nbre_explaire_livre</a:Name>
+<a:Code>NBRE_EXPLAIRE_LIVRE</a:Code>
+<a:CreationDate>1621108704</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {CF880B2C-8DE8-4020-B52B-92F8DC6FD090}
+DAT 1621108705</a:History>
+<a:DataType>I</a:DataType>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o20">
+<a:ObjectID>83C5D392-8D10-4B39-8361-41FFA82FE0ED</a:ObjectID>
+<a:Name>Emprunt</a:Name>
+<a:Code>EMPRUNT</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {1A341708-65A5-456C-A827-1FFBBA149F64}
+DAT 1620928602</a:History>
+<c:Identifiers>
+<o:Identifier Id="o30">
+<a:ObjectID>EC795B22-CA54-4B3F-994F-A86240866163</a:ObjectID>
+<a:Name>id_emprunt</a:Name>
+<a:Code>ID_EMPRUNT</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {B7B67109-5BF3-4583-85DD-588D22917FAF}
+DAT 1620928602</a:History>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o31"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o30"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o31">
+<a:ObjectID>51327D78-63DC-4F71-8EDF-924822FE5DC6</a:ObjectID>
+<a:Name>id_emprunt</a:Name>
+<a:Code>ID_EMPRUNT</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {224E16FB-F939-41ED-B9FF-6AB94166E381}
+DAT 1620928602</a:History>
+<a:DataType>I</a:DataType>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o32">
+<a:ObjectID>E5664946-C32C-4D3C-BF6A-76EB688174D8</a:ObjectID>
+<a:Name>ISBN</a:Name>
+<a:Code>ISBN</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621124860</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {9825B8D1-58FC-4DA5-B053-7CE67D975B8B},{E3C5002A-2D58-41CE-9D56-9281CAD6D04D}
+DAT 1620928602</a:History>
+<a:DataType>I</a:DataType>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+<a:AutoMigrated>1</a:AutoMigrated>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o33">
+<a:ObjectID>D8326A00-F928-4F16-AAA9-515A0F0FBAB3</a:ObjectID>
+<a:Name>id_adherant</a:Name>
+<a:Code>ID_ADHERANT</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {58BF8DC4-22B9-4234-A71A-012E04C7DC2A},{EC2B3BE7-E660-4DC3-BD72-B08A9405E287}
+DAT 1620928602</a:History>
+<a:DataType>I</a:DataType>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+<a:AutoMigrated>1</a:AutoMigrated>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o34">
+<a:ObjectID>C7958A90-D976-4A0F-B645-AEF036C19DE0</a:ObjectID>
+<a:Name>login_ad</a:Name>
+<a:Code>LOGIN_AD</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {EAE1A71F-111F-4793-94AE-E3BFF23FB2FF},{814BFF16-0801-40C1-90E4-173F4BADB3D5}
+DAT 1620928602</a:History>
+<a:DataType>VA8</a:DataType>
+<a:Length>8</a:Length>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+<a:AutoMigrated>1</a:AutoMigrated>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o35">
+<a:ObjectID>8CF2F509-F41B-4F11-8693-54E90B25E1BD</a:ObjectID>
+<a:Name>date_debut</a:Name>
+<a:Code>DATE_DEBUT</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {732D1380-1DF1-46E1-B324-10EEE96BE685}
+DAT 1620928602</a:History>
+<a:DataType>D</a:DataType>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o36">
+<a:ObjectID>28E948D4-0505-43D7-93AB-29126E7D385B</a:ObjectID>
+<a:Name>date_fin</a:Name>
+<a:Code>DATE_FIN</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {6B17D700-2661-4FF9-95BA-AC2D4DC13928}
+DAT 1620928602</a:History>
+<a:DataType>D</a:DataType>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o37">
+<a:ObjectID>0C1A3ED7-7D76-4361-B61B-9AEFDB0A7E44</a:ObjectID>
+<a:Name>nbre_emprunt</a:Name>
+<a:Code>NBRE_EMPRUNT</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {193447E4-6EDD-44F1-AC98-628BA83F2954}
+DAT 1620928602</a:History>
+<a:DataType>I</a:DataType>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o21">
+<a:ObjectID>85F0A56F-FD5E-4A49-B307-BE612B9A3B64</a:ObjectID>
+<a:Name>auteur</a:Name>
+<a:Code>AUTEUR</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {02ACC915-264A-4FA6-A515-7F1F2FED455B}
+DAT 1620928602</a:History>
+<c:Identifiers>
+<o:Identifier Id="o38">
+<a:ObjectID>7CE57AFD-24A4-4A9B-94F5-62CB35385418</a:ObjectID>
+<a:Name>id_auteur</a:Name>
+<a:Code>ID_AUTEUR</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {AB7C5FD6-AC6A-4AC9-B83E-B6CBC88959C8}
+DAT 1620928602</a:History>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o39"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o38"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o40">
+<a:ObjectID>6B87603C-EAED-4156-9F0C-0B706759B642</a:ObjectID>
+<a:Name>id_auteur</a:Name>
+<a:Code>ID_AUTEUR</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {BB78FDA9-0255-4B16-978A-5517AFFE050C}
+DAT 1620928602</a:History>
+<a:DataType>I</a:DataType>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o39">
+<a:ObjectID>2E0BA446-655E-46FF-A6A8-1EC2BA8A8E7B</a:ObjectID>
+<a:Name>nom_auteur</a:Name>
+<a:Code>NOM_AUTEUR</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {DBF2E156-64B5-4B01-B028-60B6834DFADB}
+DAT 1620928602</a:History>
+<a:DataType>VA30</a:DataType>
+<a:Length>30</a:Length>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o41">
+<a:ObjectID>44273C64-6905-418F-AE0F-93E4BA76D380</a:ObjectID>
+<a:Name>prenom_auteur</a:Name>
+<a:Code>PRENOM_AUTEUR</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {D5A7359F-ADD8-4688-B83F-1914AD389799}
+DAT 1620928602</a:History>
+<a:DataType>VA30</a:DataType>
+<a:Length>30</a:Length>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o22">
+<a:ObjectID>53440A44-9C9E-47B9-BF17-63A9779D7B09</a:ObjectID>
+<a:Name>Adherant</a:Name>
+<a:Code>ADHERANT</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {5E4C00D2-905A-4828-B352-566E62C39D9E}
+DAT 1620928602
+ATT PIDTF</a:History>
+<c:Identifiers>
+<o:Identifier Id="o42">
+<a:ObjectID>911064AB-A32F-4094-9AB5-AAAA3BDD3750</a:ObjectID>
+<a:Name>id_adherant</a:Name>
+<a:Code>ID_ADHERANT</a:Code>
+<a:CreationDate>1621108704</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {2925A259-D6D5-4A2A-8599-F29648A37703}
+DAT 1621108705</a:History>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o43"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o42"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o43">
+<a:ObjectID>B71698FB-48E8-4073-A20D-AFEE0F2B7143</a:ObjectID>
+<a:Name>id_adherant</a:Name>
+<a:Code>ID_ADHERANT</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {58BF8DC4-22B9-4234-A71A-012E04C7DC2A}
+DAT 1620928602</a:History>
+<a:DataType>I</a:DataType>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o44">
+<a:ObjectID>EF461CB7-EBCE-4768-AE84-8D6CFC7A4B7F</a:ObjectID>
+<a:Name>nom_adherant</a:Name>
+<a:Code>NOM_ADHERANT</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {4CC1A33D-7717-4F5D-B8F1-7E689F8EA94B}
+DAT 1620928602</a:History>
+<a:DataType>VA30</a:DataType>
+<a:Length>30</a:Length>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o45">
+<a:ObjectID>BED973F4-0C83-4F01-9C72-A06185296F40</a:ObjectID>
+<a:Name>prenom_adherant</a:Name>
+<a:Code>PRENOM_ADHERANT</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {DC8EB9BB-AE82-4616-89C1-84A1726565E5}
+DAT 1620928602</a:History>
+<a:DataType>VA30</a:DataType>
+<a:Length>30</a:Length>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o46">
+<a:ObjectID>55CB717F-BCB1-499B-A5A1-77B25A08A24F</a:ObjectID>
+<a:Name>ate_naiss_adherant</a:Name>
+<a:Code>ATE_NAISS_ADHERANT</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {A8AAD060-66D8-49A9-8719-2DF58E774904}
+DAT 1620928602</a:History>
+<a:DataType>D</a:DataType>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o47">
+<a:ObjectID>EE6FBA76-518A-40B4-AA34-BA638AB98142</a:ObjectID>
+<a:Name>adresse_adherant</a:Name>
+<a:Code>ADRESSE_ADHERANT</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {AA83BD12-6088-454A-B830-E14588A83886}
+DAT 1620928602</a:History>
+<a:DataType>VA30</a:DataType>
+<a:Length>30</a:Length>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o48">
+<a:ObjectID>DCFB611D-BE4E-40B8-980B-5F653611A86F</a:ObjectID>
+<a:Name>tel_adherant</a:Name>
+<a:Code>TEL_ADHERANT</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {A5F4CFDE-B889-43BF-9423-2412B211D236}
+DAT 1620928602</a:History>
+<a:DataType>I</a:DataType>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o23">
+<a:ObjectID>DD6092C1-85C8-475E-8D87-03629B1A1CBB</a:ObjectID>
+<a:Name>admin_biblio</a:Name>
+<a:Code>ADMIN_BIBLIO</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {CC04F21D-4AAA-413B-ABC3-33B13D13465A}
+DAT 1620928602</a:History>
+<c:Identifiers>
+<o:Identifier Id="o49">
+<a:ObjectID>D7CE5210-DBA0-4D4B-B4B8-DEADD4768CAA</a:ObjectID>
+<a:Name>login_ad</a:Name>
+<a:Code>LOGIN_AD</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {EA955DDD-3A3A-41A8-8D1F-9BAF72F94C2F}
+DAT 1620928602</a:History>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o50"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o49"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o50">
+<a:ObjectID>5F32BE61-8F91-4001-A2F7-5FEC56764576</a:ObjectID>
+<a:Name>login_ad</a:Name>
+<a:Code>LOGIN_AD</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {EAE1A71F-111F-4793-94AE-E3BFF23FB2FF}
+DAT 1620928602</a:History>
+<a:DataType>VA8</a:DataType>
+<a:Length>8</a:Length>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o51">
+<a:ObjectID>D4F62086-5AD4-40FF-99E0-74A17875654B</a:ObjectID>
+<a:Name>password_ad</a:Name>
+<a:Code>PASSWORD_AD</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {9EB14D14-B487-4F99-9122-4824FBE64A17}
+DAT 1620928602</a:History>
+<a:DataType>VA8</a:DataType>
+<a:Length>8</a:Length>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o52">
+<a:ObjectID>95A0584F-58E0-4E93-B108-F9BF1C905095</a:ObjectID>
+<a:Name>nom_ad</a:Name>
+<a:Code>NOM_AD</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {C6B326F7-0291-43D3-B2BF-4B29346DF60F}
+DAT 1620928602</a:History>
+<a:DataType>VA30</a:DataType>
+<a:Length>30</a:Length>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o53">
+<a:ObjectID>9ABB23B3-EF05-42DF-898F-383779AFB026</a:ObjectID>
+<a:Name>prenom_ad</a:Name>
+<a:Code>PRENOM_AD</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {79E416AD-F1E0-4813-9AF9-6340C0195C4B}
+DAT 1620928602</a:History>
+<a:DataType>VA30</a:DataType>
+<a:Length>30</a:Length>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o54">
+<a:ObjectID>3D00786A-4A17-4161-AEB4-1E68CECA93B0</a:ObjectID>
+<a:Name>date_naissance_ad</a:Name>
+<a:Code>DATE_NAISSANCE_AD</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {F8E05DC5-BCB0-4FD9-B0C4-F5D2A0E3BAC6}
+DAT 1620928602</a:History>
+<a:DataType>D</a:DataType>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+</c:Entities>
+<c:Relationships>
+<o:Relationship Id="o9">
+<a:ObjectID>0CA72689-102F-427D-9CF5-FAF3D4E295F8</a:ObjectID>
+<a:Name>Concerne</a:Name>
+<a:Code>CONCERNE</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {E3C5002A-2D58-41CE-9D56-9281CAD6D04D}
+DAT 1620928602</a:History>
+<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>1,1</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o20"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o19"/>
+</c:Object2>
+<c:Joins>
+<o:RelationshipJoin Id="o55">
+<a:ObjectID>E9F61C23-B74D-4066-A622-6A66359674C2</a:ObjectID>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<c:Object1>
+<o:EntityAttribute Ref="o25"/>
+</c:Object1>
+<c:Object2>
+<o:EntityAttribute Ref="o32"/>
+</c:Object2>
+</o:RelationshipJoin>
+</c:Joins>
+<c:ParentIdentifier>
+<o:Identifier Ref="o24"/>
+</c:ParentIdentifier>
+</o:Relationship>
+<o:Relationship Id="o12">
+<a:ObjectID>FC15A90D-B5BF-4D60-A945-8833A3531A36</a:ObjectID>
+<a:Name>Rediger</a:Name>
+<a:Code>REDIGER</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {E4A4ABDD-8BAA-4F69-903B-088C5051F0AA}
+DAT 1620928602</a:History>
+<a:Entity1ToEntity2RoleCardinality>1,1</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,n</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o21"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o19"/>
+</c:Object2>
+<c:Joins>
+<o:RelationshipJoin Id="o56">
+<a:ObjectID>CD1FC125-3F5A-4ED7-9688-9632C4264C8E</a:ObjectID>
+<a:CreationDate>1621108710</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621108711</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<c:Object1>
+<o:EntityAttribute Ref="o39"/>
+</c:Object1>
+<c:Object2>
+<o:EntityAttribute Ref="o26"/>
+</c:Object2>
+</o:RelationshipJoin>
+</c:Joins>
+<c:ParentIdentifier>
+<o:Identifier Ref="o38"/>
+</c:ParentIdentifier>
+</o:Relationship>
+<o:Relationship Id="o15">
+<a:ObjectID>23D6D5E1-0BD6-491A-80B4-647CEB3A157C</a:ObjectID>
+<a:Name>effectuer</a:Name>
+<a:Code>EFFECTUER</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621118058</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {EC2B3BE7-E660-4DC3-BD72-B08A9405E287}
+DAT 1620928602
+ATT PIDF</a:History>
+<a:Entity1ToEntity2RoleCardinality>1,1</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,n</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o22"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o20"/>
+</c:Object2>
+<c:Joins>
+<o:RelationshipJoin Id="o57">
+<a:ObjectID>C7B5DBAE-9900-441C-AA00-2CCB893CB9C6</a:ObjectID>
+<a:CreationDate>1621118052</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621118058</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<c:Object1>
+<o:EntityAttribute Ref="o43"/>
+</c:Object1>
+<c:Object2>
+<o:EntityAttribute Ref="o33"/>
+</c:Object2>
+</o:RelationshipJoin>
+</c:Joins>
+<c:ParentIdentifier>
+<o:Identifier Ref="o42"/>
+</c:ParentIdentifier>
+</o:Relationship>
+<o:Relationship Id="o18">
+<a:ObjectID>65A2E2D5-05D2-45A4-97D1-D9350BEDF539</a:ObjectID>
+<a:Name>gerer</a:Name>
+<a:Code>GERER</a:Code>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:History>ORG {814BFF16-0801-40C1-90E4-173F4BADB3D5}
+DAT 1620928602</a:History>
+<a:Entity1ToEntity2RoleCardinality>1,1</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,n</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o23"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o20"/>
+</c:Object2>
+<c:Joins>
+<o:RelationshipJoin Id="o58">
+<a:ObjectID>35064387-B640-4244-85F8-CB2522AA60C5</a:ObjectID>
+<a:CreationDate>1620928602</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1620928602</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<c:Object1>
+<o:EntityAttribute Ref="o50"/>
+</c:Object1>
+<c:Object2>
+<o:EntityAttribute Ref="o34"/>
+</c:Object2>
+</o:RelationshipJoin>
+</c:Joins>
+<c:ParentIdentifier>
+<o:Identifier Ref="o49"/>
+</c:ParentIdentifier>
+</o:Relationship>
+</c:Relationships>
+<c:TargetModels>
+<o:TargetModel Id="o59">
+<a:ObjectID>EC0F1451-842E-4245-8A3F-EA2F5EA23A36</a:ObjectID>
+<a:Name>GestionBibliothèque</a:Name>
+<a:Code>GESTIONBIBLIOTHEQUE</a:Code>
+<a:CreationDate>1620928770</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621119033</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:TargetModelURL>file:///E|/#Semestre 6/Mini Projet INFO/final/GestionBibliothèque.mpd</a:TargetModelURL>
+<a:TargetModelID>028B4019-5A3D-4547-AAF2-5D61EA11ADE9</a:TargetModelID>
+<a:TargetModelClassID>CDE44E21-9669-11D1-9914-006097355D9B</a:TargetModelClassID>
+<a:TargetModelLastModificationDate>1621119249</a:TargetModelLastModificationDate>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o3"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o60">
+<a:ObjectID>C58BE70F-CAFB-4381-B7C1-37FEA4736335</a:ObjectID>
+<a:Name>GestionBibliothèque</a:Name>
+<a:Code>GESTIONBIBLIOTHEQUE</a:Code>
+<a:CreationDate>1621119014</a:CreationDate>
+<a:Creator>Kodjo</a:Creator>
+<a:ModificationDate>1621124620</a:ModificationDate>
+<a:Modifier>Kodjo</a:Modifier>
+<a:TargetModelURL>file:///E|/#Semestre 6/Mini Projet INFO/2021/Merise/GestionBibliothèque.mcd</a:TargetModelURL>
+<a:TargetModelID>DD7DB1B0-50BE-41F4-AB5E-771311280018</a:TargetModelID>
+<a:TargetModelClassID>1E597170-9350-11D1-AB3C-0020AF71E433</a:TargetModelClassID>
+<a:TargetModelLastModificationDate>1621124620</a:TargetModelLastModificationDate>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o4"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+</c:TargetModels>
+</o:Model>
+</c:Children>
+</o:RootObject>
+
+</Model>

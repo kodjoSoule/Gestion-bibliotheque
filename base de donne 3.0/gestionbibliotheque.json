@@ -1,0 +1,47 @@
+[
+{"type":"header","version":"5.2.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"gestionbibliotheque"},
+{"type":"table","name":"adherant","database":"gestionbibliotheque","data":
+[
+{"ID_ADHERANT":"1","NOM_ADHERANT":"Kodjo","PRENOM_ADHERANT":"Souleymane","ATE_NAISS_ADHERANT":"2021-05-24","ADRESSE_ADHERANT":"Sokorodji","TEL_ADHERANT":"75066811"}
+]
+}
+,{"type":"table","name":"admin_biblio","database":"gestionbibliotheque","data":
+[
+{"LOGIN_AD":"admin","PASSWORD_AD":"admin","NOM_AD":"Kodjo","PRENOM_AD":"Souleymane","DATE_NAISSANCE_AD":"2000-01-22"}
+]
+}
+,{"type":"table","name":"auteur","database":"gestionbibliotheque","data":
+[
+{"ID_AUTEUR":"10","NOM_AUTEUR":"Léopold Sédar","PRENOM_AUTEUR":"Senghor"},
+{"ID_AUTEUR":"12","NOM_AUTEUR":"Cheikh Anta","PRENOM_AUTEUR":"Diop"},
+{"ID_AUTEUR":"14","NOM_AUTEUR":"Cheikh Hamidou","PRENOM_AUTEUR":"Kane"},
+{"ID_AUTEUR":"16","NOM_AUTEUR":"Ahmadou","PRENOM_AUTEUR":"Kourouma"},
+{"ID_AUTEUR":"18","NOM_AUTEUR":"Mongo","PRENOM_AUTEUR":"Beti"},
+{"ID_AUTEUR":"20","NOM_AUTEUR":"Amadou Hampâté ","PRENOM_AUTEUR":"Bâ"},
+{"ID_AUTEUR":"22","NOM_AUTEUR":"Kateb","PRENOM_AUTEUR":"Yacine"},
+{"ID_AUTEUR":"24","NOM_AUTEUR":"Mohammed","PRENOM_AUTEUR":"Choukri"},
+{"ID_AUTEUR":"26","NOM_AUTEUR":"Assia","PRENOM_AUTEUR":"Djebar"},
+{"ID_AUTEUR":"28","NOM_AUTEUR":"Aminata Sow","PRENOM_AUTEUR":"Fall"},
+{"ID_AUTEUR":"29","NOM_AUTEUR":"ODA","PRENOM_AUTEUR":"ADA"},
+{"ID_AUTEUR":"31","NOM_AUTEUR":"","PRENOM_AUTEUR":"errf"},
+{"ID_AUTEUR":"35","NOM_AUTEUR":"j","PRENOM_AUTEUR":"SSSS"},
+{"ID_AUTEUR":"36","NOM_AUTEUR":"Kodjo","PRENOM_AUTEUR":"Soule"},
+{"ID_AUTEUR":"37","NOM_AUTEUR":"Kodjo","PRENOM_AUTEUR":"preno1"},
+{"ID_AUTEUR":"38","NOM_AUTEUR":"gftdgvhj","PRENOM_AUTEUR":"bh n"},
+{"ID_AUTEUR":"39","NOM_AUTEUR":"itachi","PRENOM_AUTEUR":"uchiwa"}
+]
+}
+,{"type":"table","name":"livre","database":"gestionbibliotheque","data":
+[
+{"ISBN":"97800","ID_AUTEUR":"20","TITRE_LIVRE":"Mémoires","LANGUE_LIVRE":"français","NBRE_EXPLAIRE_LIVRE":"66"},
+{"ISBN":"97811","ID_AUTEUR":"10","TITRE_LIVRE":"OEUVRE POÉTIQUE","LANGUE_LIVRE":"français","NBRE_EXPLAIRE_LIVRE":"15"},
+{"ISBN":"97822","ID_AUTEUR":"12","TITRE_LIVRE":"Precolonial Black Africa","LANGUE_LIVRE":"français","NBRE_EXPLAIRE_LIVRE":"25"},
+{"ISBN":"97833","ID_AUTEUR":"16","TITRE_LIVRE":"Quand on refuse on dit non","LANGUE_LIVRE":"français","NBRE_EXPLAIRE_LIVRE":"9"},
+{"ISBN":"97844","ID_AUTEUR":"18","TITRE_LIVRE":"Cruel City: A Novel","LANGUE_LIVRE":"français","NBRE_EXPLAIRE_LIVRE":"34"},
+{"ISBN":"97855","ID_AUTEUR":"14","TITRE_LIVRE":"AVENTURE AMBIGUE -NE","LANGUE_LIVRE":"français","NBRE_EXPLAIRE_LIVRE":"7"},
+{"ISBN":"97866","ID_AUTEUR":"22","TITRE_LIVRE":"Nedjma","LANGUE_LIVRE":"français","NBRE_EXPLAIRE_LIVRE":"13"},
+{"ISBN":"97877","ID_AUTEUR":"24","TITRE_LIVRE":"For Bread Alone","LANGUE_LIVRE":"anglais","NBRE_EXPLAIRE_LIVRE":"32"}
+]
+}
+]
