@@ -38,6 +38,19 @@ $title ="Biblitheque TOHO" ;?>
 	<?php require('entete.php') ; ?>
 	<div class="container">
 	<div class="row mt-5">
+		<?php if($afficherErr){ ?>
+			<!-- 
+			<div class="text-center col-8 my-3 alert alert-danger" style="margin: auto;">
+				<strong><?php echo $erreurmsg ; ?></strong>
+			</div>
+ -->
+			<div class=" text-center col-8  my-3 mx-auto alert alert-danger alert-dismissible fade show" role="alert">
+			  <strong><?php echo $erreurmsg ; ?></strong>
+			  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			    <span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+		<?php } ?>
 		<div class="col-md-6 mx-auto bg-light p-4 border rounded">
 			<form method="POST" action="login.php" class="col-9 mx-auto">
 				<h2>Connexion</h2>
@@ -53,11 +66,7 @@ $title ="Biblitheque TOHO" ;?>
 				<button class="btn btn-muted ml-4" type="reset" name="reset">Effacer</button>
 				<br><br>
 			</form>
-			<?php if($afficherErr){ ?>
-			<div class="text-center col-8 alert alert-danger" style="margin: auto;">
-				<strong><?php echo $erreurmsg ; ?></strong>
-			</div>
-		<?php } ?>
+			
 		</div>
 	</div>
 </div>
